@@ -1,0 +1,22 @@
+
+[22:03:58 root@vm-8000-nkahila /tmp]# python list_files_to_csv_multiprocessing.py /tmp/temp1/
+Create pool jobs in the size of current machine 'vm-8000-nkahila' cores size: '4'.
+RUNNING data calculation using PID '4739' to file '/tmp/temp1/test/test1'
+RUNNING data calculation using PID '4740' to file '/tmp/temp1/test/test2'
+Process data calculation FINISHED using PID '4739' to file '/tmp/temp1/test/test1'
+RUNNING data calculation using PID '4741' to file '/tmp/temp1/file2.txt'
+Process data calculation FINISHED using PID '4740' to file '/tmp/temp1/test/test2'
+RUNNING data calculation using PID '4739' to file '/tmp/temp1/file1.txt'
+Process data calculation FINISHED using PID '4741' to file '/tmp/temp1/file2.txt'
+Process data calculation FINISHED using PID '4739' to file '/tmp/temp1/file1.txt'
+RUNNING data calculation using PID '4742' to file '/tmp/temp1/files_data.csv'
+Process data calculation FINISHED using PID '4742' to file '/tmp/temp1/files_data.csv'
+--- Success! Output file is created, please check it at path: /tmp/temp1/files_data.csv
+
+--- See the output of the csv below as well:
+Index,File Path,MD5
+1,/tmp/temp1/test/test1,d41d8cd98f00b204e9800998ecf8427e
+2,/tmp/temp1/test/test2,d41d8cd98f00b204e9800998ecf8427e
+3,/tmp/temp1/file2.txt,d41d8cd98f00b204e9800998ecf8427e
+4,/tmp/temp1/files_data.csv,2225c6ef7465ee49a9e14df2610827da
+5,/tmp/temp1/file1.txt,d41d8cd98f00b204e9800998ecf8427e

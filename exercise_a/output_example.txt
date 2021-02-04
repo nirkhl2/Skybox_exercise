@@ -1,0 +1,7 @@
+[22:01:40 root@vm-8000-nkahila /tmp]# python list_files.py /tmp/temp1/
+         /
+         test/
+            test1
+            test2
+         file2.txt
+         file1.txt

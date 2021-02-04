@@ -1,0 +1,9 @@
+[22:03:37 root@vm-8000-nkahila /tmp]# python list_files_to_csv.py /tmp/temp1/
+--- Success! Output file is created, please check it at path: /tmp/temp1/files_data.csv
+
+--- See the output of the csv below as well:
+Index,File Path,MD5
+1,/tmp/temp1/test/test1,d41d8cd98f00b204e9800998ecf8427e
+2,/tmp/temp1/test/test2,d41d8cd98f00b204e9800998ecf8427e
+3,/tmp/temp1/file2.txt,d41d8cd98f00b204e9800998ecf8427e
+4,/tmp/temp1/file1.txt,d41d8cd98f00b204e9800998ecf8427e
